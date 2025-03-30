@@ -1,0 +1,29 @@
+h1 {
+  display: flex;
+  height: fit-content;
+  width: max-content;
+  margin: 2px;
+  padding: 2px;
+}
+
+p {
+  height: 50px;
+  background-color: rgb(189, 182, 233);
+  color: rgb(0, 0, 0);
+  backdrop-filter: blur(20px);
+  border: 2px solid black;
+  border-radius: 5px;
+  display: flex;
+  margin: 2%;
+  padding: 5%;
+}
+
+button {
+  background-color: rgb(140, 83, 194);
+  color: white;
+  height: 40px;
+  justify-items: center;
+  margin: 0.5%;
+  border: 3px solid rgb(47, 6, 85);
+  border-radius: 50px;
+}
